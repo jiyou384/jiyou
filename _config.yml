@@ -13,9 +13,9 @@ title: "Jiyou Shin"
 title_separator: "-"
 name: &name "Jiyou Shin"
 description: &description "신지유(Jiyou Shin)의 개인 홈페이지"
-url: https://jiyou.github.io/
-baseurl: "" # the subpath of your site, e.g. "/blog"
-repository: "jiyou384/jiyou.github.io"
+url: "https://jiyou384.github.io"
+baseurl: "/jiyou"
+repository: "jiyou384/jiyou"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
