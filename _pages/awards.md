@@ -92,7 +92,7 @@ redirect_from:
   </div>
 
   <div class="award__item">
-    <img class="award__image" src="{{ '/images/awards/2023-rbiz-komipo.jpg' | relative_url }}" alt="2023 R-BIZ Challenge KOMIPO Smart Robot and Drone Challenge">
+    <img class="award__image" src="{{ '/images/awards/2023-rbiz-komipo.png' | relative_url }}" alt="2023 R-BIZ Challenge KOMIPO Smart Robot and Drone Challenge">
     <div>
       <h3 class="award__title">2023 R-BIZ Challenge: KOMIPO Smart Robot &amp; Drone Challenge <span class="award__rank" aria-label="4th place">4️⃣</span></h3>
       <p class="award__result"><strong>4th Place</strong></p>
