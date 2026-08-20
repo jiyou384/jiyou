@@ -1,0 +1,123 @@
+/* ========================================================================== 
+   PROJECTS
+   ========================================================================== */
+
+.projects__intro {
+  max-width: 42em;
+  margin-bottom: 2em;
+  color: var(--global-text-color-light);
+  font-size: 0.95em;
+}
+
+.projects__list {
+  margin-top: 1.5em;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.project__item {
+  padding: 1.6em 0 1.75em;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.project__header {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1.5em;
+  align-items: start;
+}
+
+.project__title {
+  margin: 0;
+  font-size: $type-size-4;
+  line-height: 1.4;
+}
+
+.project__period {
+  margin: 0.25em 0 0;
+  color: var(--global-text-color-light);
+  font-size: 0.8em;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.project__details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em 1.5em;
+  margin: 0.85em 0 0;
+  font-size: 0.82em;
+
+  div {
+    display: flex;
+    gap: 0.4em;
+  }
+
+  dt {
+    color: var(--global-text-color-light);
+    font-weight: 700;
+  }
+
+  dd {
+    margin: 0;
+  }
+}
+
+.project__contributions {
+  margin: 1em 0 0;
+  padding-left: 1.15em;
+
+  li {
+    margin-bottom: 0.45em;
+    padding-left: 0.2em;
+    line-height: 1.6;
+  }
+
+  p {
+    display: inline;
+    margin: 0;
+  }
+}
+
+.project__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 1em;
+
+  a {
+    font-size: 0.82em;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
+
+.projects__empty {
+  padding: 3em 1em;
+  text-align: center;
+  border-top: 1px solid var(--global-border-color);
+  border-bottom: 1px solid var(--global-border-color);
+
+  span {
+    color: var(--global-text-color-light);
+    font-size: 0.65em;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+  }
+
+  p {
+    margin: 0.6em 0 0;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 700px) {
+  .project__header {
+    grid-template-columns: 1fr;
+    gap: 0.35em;
+  }
+
+  .project__period {
+    margin-top: 0;
+    white-space: normal;
+  }
+}

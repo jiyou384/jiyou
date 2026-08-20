@@ -25,12 +25,12 @@ Teaching Experience
 
 ### Teaching Assistant
 
-- **Fall 2025** — Mechanical Vibration
-- **Spring 2025** — Mathematics and Simulation for Robotics
-- **Fall 2024** — Design Lab on Vibration and Dynamic Systems
-- **Fall 2024** — Mobile System Control
-- **Fall 2023** — Mobile System Control
-- **Spring 2023** — Design Lab on Vibration and Dynamic Systems
+- **Fall 2025** — Mechanical Vibration (EME3019), Sungkyunkwan University
+- **Spring 2025** — Mathematics and Simulation for Robotics (ROB5014), Sungkyunkwan University
+- **Fall 2024** — Design Lab on Vibration and Dynamic Systems (EME2057), Sungkyunkwan University
+- **Fall 2024** — Mobile System Control (EME3081), Sungkyunkwan University
+- **Fall 2023** — Mobile System Control (EME3081), Sungkyunkwan University
+- **Spring 2023** — Design Lab on Vibration and Dynamic Systems (EME2057), Sungkyunkwan University
 
 <!-- Work experience
 ======

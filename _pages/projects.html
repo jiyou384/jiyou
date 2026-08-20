@@ -1,0 +1,53 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+description: "National research and development projects conducted by Jiyou Shin"
+---
+
+<p class="projects__intro">National research and development projects.</p>
+
+{% if site.data.projects and site.data.projects.size > 0 %}
+  <div class="projects__list">
+    {% for project in site.data.projects %}
+      <article class="project__item">
+        <header class="project__header">
+          <h2 class="project__title">{{ project.title }}</h2>
+          {% if project.period %}<p class="project__period">{{ project.period }}</p>{% endif %}
+        </header>
+
+        {% if project.agency or project.program or project.role %}
+          <dl class="project__details">
+            {% if project.agency %}<div><dt>Agency</dt><dd>{{ project.agency }}</dd></div>{% endif %}
+            {% if project.program %}<div><dt>Program</dt><dd>{{ project.program }}</dd></div>{% endif %}
+            {% if project.role %}<div><dt>Role</dt><dd>{{ project.role }}</dd></div>{% endif %}
+          </dl>
+        {% endif %}
+
+        {% if project.contributions %}
+          <ul class="project__contributions">
+            {% for contribution in project.contributions %}
+              <li>{{ contribution | markdownify }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if project.links %}
+          <div class="project__links">
+            {% for link in project.links %}
+              <a href="{{ link.url }}"{% if link.url contains '://' %} target="_blank" rel="noopener noreferrer"{% endif %}>
+                {{ link.label | default: "View project" }} <span aria-hidden="true">↗</span>
+              </a>
+            {% endfor %}
+          </div>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <div class="projects__empty">
+    <span aria-hidden="true">JS / PROJECTS</span>
+    <p>Project details are being updated.</p>
+  </div>
+{% endif %}

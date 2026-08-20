@@ -1,0 +1,37 @@
+# 국가과제 정보는 이 파일에 작성합니다.
+# 새 과제를 추가하려면 `- title:`부터 contributions 마지막 줄까지 복사하세요.
+# contribution 안에서는 [표시할 이름](https://주소) 형식으로 링크를 넣을 수 있습니다.
+# agency, program, role 항목은 선택사항이며, 필요하지 않으면 생략해도 됩니다.
+
+- title: "Development of a K-Logistics Humanoid Robot Integrated with a High-Sensitivity Robotic Hand Based on a Multimodal AI Foundation Model"
+  period: "Sep. 2025 – Present"
+  contributions:
+    - "Deployed imitation learning and vision-language-action algorithms, including [ACT](https://arxiv.org/abs/2304.13705), [π0](https://arxiv.org/abs/2410.24164), [π0.5](https://arxiv.org/abs/2504.16054), and [TA-VLA](https://arxiv.org/abs/2509.07962)"
+    - "Set up an Isaac Sim simulation environment with a dexterous hand for demonstration data augmentation"
+
+- title: "Research on Core Technologies and Human Resource Development for Simulated Reality Content"
+  period: "Mar. 2023 – Present"
+  contributions:
+    - Autonomous driving and navigation of mobile robots using multimodal perception
+    - Developing CARLA simulation environment for autonomous driving and navigation
+
+- title: "Development of Core Technology for Mobile Manipulator for 5G Edge-Based Transportation and Manipulation"
+  period: "Mar. 2023 – Dec. 2025"
+  contributions:
+    - Object recognition using YOLO11, SAM 2, and FoundationPose
+    - Force control and trajectory planning for a mobile manipulator
+    - System integration for grasping with a three-fingered hand
+
+- title: "Development of a mobile manipulator robot system based on multi-collaboration for manipulating and assembling 500 kg large and heavy parts"
+  period: "Jul. 2024 – Sep. 2025"
+  contributions:
+    - Forward and Inverse Kinematics/Dynamics for 4WIS mobile system
+    - Trajectory planning and control for mobile manipulator
+
+- title: "Industry–Academia Collaborative Project for the Future Automotive Microdegree Program"
+  period: "Dec. 2022 – Mar. 2024"
+  contributions:
+    - Autonomous driving and navigation of mobile robots using multimodal perception
+
+- title: "HD Hyundai Robotics Industry-Sponsored Project"
+  period: "2024"
